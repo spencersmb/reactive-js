@@ -1,0 +1,90 @@
+
+
+$shade-1: #F2F2F2 !default;
+$range-width: 100% !default;
+$range-handle-color: $dk-blue !default;
+$range-handle-color-hover: #BCE3E0 !default;
+$range-handle-size: 28px !default;
+$range-track-color: $shade-1 !default;
+$range-track-height: 16px !default;
+
+.fp-controls{
+  background-color: #F9B0A3;
+}
+
+.fp-input{
+  width: $range-width;
+  text-align: center;
+  padding: 45px 0 30px;
+
+  &__range{
+    -webkit-appearance: none;
+    height: $range-track-height;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: $range-track-color;
+    outline: none;
+    padding: 0;
+    margin: 0;
+
+    &::-webkit-slider-thumb{
+
+    }
+
+    &::-webkit-slider-thumb
+    {
+      appearance: none;
+      width: $range-handle-size;
+      height: $range-handle-size;
+      border-radius: 50%;
+      background-color: $range-handle-color;
+      cursor: pointer;
+      transition: background .15s ease-in-out;
+
+      &:hover {
+        background: $range-handle-color-hover;
+      }
+
+      &:active::-webkit-slider-thumb,
+      &:active::-moz-range-thumb {
+        background: $range-handle-color-hover;
+      }
+
+    }
+
+    &::-moz-range-thumb{
+      width: $range-handle-size;
+      height: $range-handle-size;
+      border-radius: 50%;
+      background-color: $range-handle-color;
+      cursor: pointer;
+      border: 0;
+      transition: background .15s ease-in-out;
+    }
+
+  }
+}
+
+// Firefox Overrides
+::-moz-range-track {
+  background: $range-track-color;
+  border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
+
+
+.fp-textSize{
+  background-color: #EFEFEF;
+  width: 100%;
+  display: flex;
+  color: $dk-blue;
+  font-size: 28px;
+  text-align: center;
+  flex-direction: column;
+  padding: 15px 0;
+}

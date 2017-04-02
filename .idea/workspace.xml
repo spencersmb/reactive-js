@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7858ef1e-74c6-45d5-8060-36427d0ece74" name="Default" comment="" />
+    <list default="true" id="7858ef1e-74c6-45d5-8060-36427d0ece74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/astroid/astroid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dragdrop/dragdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/astroid-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/drag_n_drop-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/modules/_astroid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/modules/_dragDrop.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/autocomplete_01.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/styles/modules/_live-text.scss" afterPath="$PROJECT_DIR$/src/styles/modules/_structure.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/autocomplete/auto-jquery.js" afterPath="$PROJECT_DIR$/src/autocomplete/auto-jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/autocomplete/auto-rxjs.js" afterPath="$PROJECT_DIR$/src/autocomplete/auto-rxjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/home-page.js" afterPath="$PROJECT_DIR$/src/home-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/app.scss" afterPath="$PROJECT_DIR$/src/styles/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/base-element.js" afterPath="$PROJECT_DIR$/src/ui/base-element.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/navbar.js" afterPath="$PROJECT_DIR$/src/ui/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.prod.js" afterPath="$PROJECT_DIR$/webpack.config.prod.js" />
+    </list>
     <ignored path="reactive-js.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -12,6 +35,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -20,27 +44,171 @@
     <favorites_list name="reactive-js" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home-page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/home-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="348">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
-                <marker date="1489491323000" expanded="true" signature="0:576" ph="{&quot;name&quot;: &quot;reactive-js&quot;...}" />
-                <marker date="1489491323000" expanded="true" signature="114:246" ph="{&quot;babel&quot;: &quot;babel --presets es2015 js/main.js -o build/main.bundle.js&quot;...}" />
-                <marker date="1489491323000" expanded="true" signature="305:574" ph="{&quot;babel&quot;: &quot;^6.23.0&quot;...}" />
+                <marker date="1490557232000" expanded="true" signature="248:765" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file leaf-file-name="obs-pt1-page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/obs-pt1-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="1131">
+              <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#32#82#0" expanded="true" />
+                <element signature="n#!!block;n#partOne#0;n#Obsv_1#0" expanded="false" />
+                <element signature="e#712#914#0" expanded="false" />
+                <element signature="e#997#1064#0" expanded="false" />
+                <element signature="n#!!block;n#partTwo#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#builtIns#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#hotcold_pt1#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#hotcold_pt2#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#hotcold_pt4#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#primaryOperators#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#mergeConcat#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#arrayMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#arrayMergeMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+                <element signature="n#!!block;n#arrayReduce#0;n#Obsv_1#0" expanded="false" />
+                <element signature="e#10253#10438#0" expanded="false" />
+                <element signature="n#!!block;n#createInterval$#0;n#Obsv_1#0" expanded="false" />
+                <marker date="1489880983000" expanded="true" signature="11979:16016" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="12014:12456" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="12246:12443" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="12493:12850" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="12719:12837" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="12887:13279" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="13104:13266" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="13316:13821" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="13425:13808" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="13858:14398" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="14002:14385" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="14435:14843" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="14544:14830" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="14880:15321" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="15001:15308" placeholder="..." />
+                <marker date="1489880983000" expanded="false" signature="15358:15766" placeholder="..." />
+                <marker date="1489880983000" expanded="true" signature="15459:15753" placeholder="..." />
+                <marker date="1489880983000" expanded="true" signature="15803:15996" placeholder="..." />
+                <marker date="1489880983000" expanded="true" signature="15907:15983" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drag_n_drop-page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/drag_n_drop-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="25" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1490558363000" expanded="true" signature="683:731" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="astroid-page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/astroid-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1490566676000" expanded="true" signature="678:727" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_astroid.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/modules/_astroid.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="astroid.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/astroid/astroid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#32#79#0" expanded="true" />
+                <element signature="n#!!block;n#updateState#0;n#Astroid#0" expanded="false" />
+                <element signature="n#!!block;n#createElement#0;n#Astroid#0" expanded="false" />
+                <marker date="1490732473000" expanded="true" signature="7303:7309" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="7303:7330" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="7303:7344" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="7445:7488" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="7865:8196" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="7896:8183" placeholder="..." />
+                <marker date="1490732473000" expanded="true" signature="8034:8159" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wiki-rxjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/autocomplete/wiki-rxjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#32#79#0" expanded="true" />
+                <element signature="n#!!block;n#getItems#0;n#WikiAc#0" expanded="false" />
+                <element signature="n#!!block;n#createElement#0;n#WikiAc#0" expanded="false" />
+                <marker date="1490468266000" expanded="true" signature="4032:4589" placeholder="..." />
+                <marker date="1490468266000" expanded="true" signature="4171:4183" placeholder="..." />
+                <marker date="1490468266000" expanded="true" signature="4184:4321" placeholder="..." />
+                <marker date="1490468266000" expanded="true" signature="4409:4574" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redux-clone.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux-clone/redux-clone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2204">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#32#79#0" expanded="true" />
+                <element signature="n#!!block;n#reducer#0;n#ReduxClone#0" expanded="false" />
+                <element signature="n#!!block;n#updateView#0;n#ReduxClone#0" expanded="false" />
+                <element signature="n#!!block;n#createElement#0;n#ReduxClone#0" expanded="false" />
+                <marker date="1490556886000" expanded="true" signature="614:628" placeholder="..." />
+                <marker date="1490556886000" expanded="true" signature="614:653" placeholder="..." />
+                <marker date="1490556886000" expanded="true" signature="2950:3141" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,31 +222,148 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/ui/base-element.js" />
+        <option value="$PROJECT_DIR$/src/ac-jquery-page.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/ac-rx-page.js" />
+        <option value="$PROJECT_DIR$/src/autocomplete/auto-jquery.js" />
+        <option value="$PROJECT_DIR$/src/utils/utils.js" />
+        <option value="$PROJECT_DIR$/src/styles/modules/_structure.scss" />
+        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/src/ui/navbar.js" />
+        <option value="$PROJECT_DIR$/src/pages/obs-pt1-page.js" />
+        <option value="$PROJECT_DIR$/src/pages/twitter-sidebar.js" />
+        <option value="$PROJECT_DIR$/src/autocomplete/auto-rxjs.js" />
+        <option value="$PROJECT_DIR$/src/wikiSearch-page.js" />
+        <option value="$PROJECT_DIR$/src/styles/modules/_navbar.scss" />
+        <option value="$PROJECT_DIR$/src/pages/wikiSearch-page.js" />
+        <option value="$PROJECT_DIR$/src/autocomplete/wiki-rxjs.js" />
+        <option value="$PROJECT_DIR$/src/pages/redux-clone-page.js" />
+        <option value="$PROJECT_DIR$/src/redux-clone/redux-clone.js" />
+        <option value="$PROJECT_DIR$/src/home-page.js" />
+        <option value="$PROJECT_DIR$/src/styles/modules/_dragDrop.scss" />
+        <option value="$PROJECT_DIR$/src/pages/drag_n_drop-page.js" />
+        <option value="$PROJECT_DIR$/src/dragdrop/dragdrop.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/astroid-page.js" />
+        <option value="$PROJECT_DIR$/src/styles/app.scss" />
+        <option value="$PROJECT_DIR$/src/styles/modules/_astroid.scss" />
+        <option value="$PROJECT_DIR$/src/astroid/astroid.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="503" />
+    <option name="x" value="13" />
     <option name="y" value="23" />
-    <option name="width" value="937" />
-    <option name="height" value="821" />
+    <option name="width" value="1904" />
+    <option name="height" value="1113" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsPHP</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -105,8 +390,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,30 +418,164 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redux-clone" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dragdrop" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocomplete" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactive-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="astroid" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rxjs-intro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -173,6 +590,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -182,22 +605,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -207,32 +620,34 @@
       <option name="presentableId" value="Default" />
       <updated>1489490887532</updated>
       <workItem from="1489490888662" duration="1227000" />
+      <workItem from="1489561675685" duration="73604000" />
+      <workItem from="1491143356853" duration="59000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1227000" />
+    <option name="totallyTimeSpent" value="74890000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="503" y="23" width="937" height="821" extended-state="0" />
+    <frame x="13" y="23" width="1904" height="1113" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19888268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16433942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23506366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -249,47 +664,465 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
+    <entry file="file://$PROJECT_DIR$/src/home-page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <marker date="1490557232000" expanded="true" signature="248:765" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/srcServer.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/obs-pt1-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="1131">
+          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32#82#0" expanded="true" />
+            <element signature="n#!!block;n#partOne#0;n#Obsv_1#0" expanded="false" />
+            <element signature="e#712#914#0" expanded="false" />
+            <element signature="e#997#1064#0" expanded="false" />
+            <element signature="n#!!block;n#partTwo#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#builtIns#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt1#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt2#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt4#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#primaryOperators#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#mergeConcat#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayMergeMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayReduce#0;n#Obsv_1#0" expanded="false" />
+            <element signature="e#10253#10438#0" expanded="false" />
+            <element signature="n#!!block;n#createInterval$#0;n#Obsv_1#0" expanded="false" />
+            <marker date="1489880983000" expanded="true" signature="11979:16016" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12014:12456" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12246:12443" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12493:12850" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12719:12837" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12887:13279" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13104:13266" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13316:13821" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13425:13808" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13858:14398" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14002:14385" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14435:14843" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14544:14830" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14880:15321" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="15001:15308" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="15358:15766" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15459:15753" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15803:15996" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15907:15983" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/drag_n_drop-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="25" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1490558363000" expanded="true" signature="683:731" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/astroid-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1490566676000" expanded="true" signature="678:727" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_astroid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1489491323000" expanded="true" signature="0:576" ph="{&quot;name&quot;: &quot;reactive-js&quot;...}" />
-            <marker date="1489491323000" expanded="true" signature="114:246" ph="{&quot;babel&quot;: &quot;babel --presets es2015 js/main.js -o build/main.bundle.js&quot;...}" />
-            <marker date="1489491323000" expanded="true" signature="305:574" ph="{&quot;babel&quot;: &quot;^6.23.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js" />
+    <entry file="file://$PROJECT_DIR$/tools/srcServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/src/ui/base-element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../font-preview-react-redux/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../font-preview-react-redux/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_controls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac-jquery-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_structure.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../css transitions/Timing functions/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="79" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="110" column="3" selection-start-line="42" selection-start-column="2" selection-end-line="110" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="47" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/twitter-sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac-rx-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pluralsight/building-apps-with-react-and-redux-es6/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/autocomplete/auto-rxjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="136" selection-start-line="21" selection-start-column="136" selection-end-line="21" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/redux-clone-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/autocomplete/auto-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <marker date="1490557232000" expanded="true" signature="248:765" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_dragDrop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/obs-pt1-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32#82#0" expanded="true" />
+            <element signature="n#!!block;n#partOne#0;n#Obsv_1#0" expanded="false" />
+            <element signature="e#712#914#0" expanded="false" />
+            <element signature="e#997#1064#0" expanded="false" />
+            <element signature="n#!!block;n#partTwo#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#builtIns#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt1#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt2#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#hotcold_pt4#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#primaryOperators#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#mergeConcat#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayMergeMap#0;n#!!block;n#map#0;n#Obsv_1#0" expanded="false" />
+            <element signature="n#!!block;n#arrayReduce#0;n#Obsv_1#0" expanded="false" />
+            <element signature="e#10253#10438#0" expanded="false" />
+            <element signature="n#!!block;n#createInterval$#0;n#Obsv_1#0" expanded="false" />
+            <marker date="1489880983000" expanded="true" signature="11979:16016" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12014:12456" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12246:12443" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12493:12850" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12719:12837" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="12887:13279" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13104:13266" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13316:13821" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13425:13808" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="13858:14398" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14002:14385" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14435:14843" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14544:14830" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="14880:15321" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="15001:15308" placeholder="..." />
+            <marker date="1489880983000" expanded="false" signature="15358:15766" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15459:15753" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15803:15996" placeholder="..." />
+            <marker date="1489880983000" expanded="true" signature="15907:15983" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/drag_n_drop-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="25" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1490558363000" expanded="true" signature="683:731" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../online courses/Tutsplus - Deep Dive Into Reactive Programming With RxJS/learn-reactive-programming-with-rxjs-master/8-game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/wikiSearch-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dragdrop/dragdrop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/modules/_astroid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/astroid-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1490566676000" expanded="true" signature="678:727" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/astroid/astroid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32#79#0" expanded="true" />
+            <element signature="n#!!block;n#updateState#0;n#Astroid#0" expanded="false" />
+            <element signature="n#!!block;n#createElement#0;n#Astroid#0" expanded="false" />
+            <marker date="1490732473000" expanded="true" signature="7303:7309" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="7303:7330" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="7303:7344" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="7445:7488" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="7865:8196" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="7896:8183" placeholder="..." />
+            <marker date="1490732473000" expanded="true" signature="8034:8159" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/autocomplete/wiki-rxjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32#79#0" expanded="true" />
+            <element signature="n#!!block;n#getItems#0;n#WikiAc#0" expanded="false" />
+            <element signature="n#!!block;n#createElement#0;n#WikiAc#0" expanded="false" />
+            <marker date="1490468266000" expanded="true" signature="4032:4589" placeholder="..." />
+            <marker date="1490468266000" expanded="true" signature="4171:4183" placeholder="..." />
+            <marker date="1490468266000" expanded="true" signature="4184:4321" placeholder="..." />
+            <marker date="1490468266000" expanded="true" signature="4409:4574" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux-clone/redux-clone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#32#79#0" expanded="true" />
+            <element signature="n#!!block;n#reducer#0;n#ReduxClone#0" expanded="false" />
+            <element signature="n#!!block;n#updateView#0;n#ReduxClone#0" expanded="false" />
+            <element signature="n#!!block;n#createElement#0;n#ReduxClone#0" expanded="false" />
+            <marker date="1490556886000" expanded="true" signature="614:628" placeholder="..." />
+            <marker date="1490556886000" expanded="true" signature="614:653" placeholder="..." />
+            <marker date="1490556886000" expanded="true" signature="2950:3141" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

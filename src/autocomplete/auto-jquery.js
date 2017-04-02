@@ -1,20 +1,38 @@
 
 /* eslint-disable no-console */
 import $ from 'jquery';
+import {BaseElement} from '../ui/base-element';
 
-class BasicAc {
+
+/*
+    1. initialize variables we'll use in the constructor
+    2. Assign HTML for this element in the GetElementString()
+    3. After we create the jquery wrapped element using super.createElement(), initialize any JS events to that element
+    4.
+ */
+
+export class BasicAc extends BaseElement{
 
     constructor() {
-        this.$title = $('#title');
-        this.$results = $('#results');
+        super();
+        this.$title = '';
+        this.$results = '';
         this.lastQuery = null;
         this.lastTimeout = null;
         this.nextQueryId = 0; //give each query a unqie ID so they come in order
     }
 
     init() {
-        console.log('juqery Basic AutoComplete');
+        console.log('jQuery Basic AutoComplete');
 
+        this.$title = this.$element.find('#title');
+        this.$results = this.$element.find('#results');
+
+        this.createEvent();
+
+    }
+
+    createEvent(){
         this.$title.on("keyup", e => {
             const title = e.target.value;
 
@@ -37,17 +55,17 @@ class BasicAc {
             //When a new request comes in set a new timeout to get the Items after 500 ms
             this.lastTimeout = window.setTimeout(() => {
                 this.getItems(title)
-                    .then(items => {
+                  .then(items => {
 
-                        if( ourQueryId != this.nextQueryId ){
-                            return;
-                        }
+                      if( ourQueryId != this.nextQueryId ){
+                          return;
+                      }
 
-                        this.$results.empty();
+                      this.$results.empty();
 
-                        const $items = items.map(item => $(`<li />`).text(item));
-                        this.$results.append($items);
-                    })
+                      const $items = items.map(item => $(`<li />`).text(item));
+                      this.$results.append($items);
+                  });
             }, 500);
 
 
@@ -70,8 +88,21 @@ class BasicAc {
         });
     }
 
+    createElement(){
+        super.createElement();
+        this.init();
+    }
+
+    getElementString(){
+        return `
+        <div id="jba-app">
+            <input type="text" id="title">
+            <ul id="results">
+              
+            </ul>
+        </div>
+        `;
+    }
+
 }
 
-let basic_autocomplete = new BasicAc();
-
-export default basic_autocomplete;

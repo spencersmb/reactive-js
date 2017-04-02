@@ -1,17 +1,62 @@
+/* eslint-disable no-console */
 import {BaseElement} from './base-element';
+import Rx from 'rxjs/Rx';
+import $ from 'jquery';
+
 
 export class Navbar extends BaseElement {
+    
     constructor(title){
         super();
         this.title = title;
         this.links = [];
+        this.navPosition = 0;
     }
 
-    addLink(title, href){
+    addLink(title){
         this.links.push({
-            href,
             title
-        })
+        });
+    }
+
+    checkNavPosition(){
+
+        /*
+        Animate in after 500px
+        Animate out if less than 500px
+        If we go straight to the top - remove animation completely
+         */
+        if(this.navPosition > 500) {
+            this.navbar.removeClass('top-zero');
+            this.navbar.addClass('scrolling');
+        }else if(this.navPosition < 100){
+            this.navbar.addClass('top-zero');
+            this.navbar.removeClass('scrolling');
+        }else{
+            this.navbar.removeClass('scrolling');
+        }
+    }
+
+    scrollObsrv(){
+
+        //Window scroll event with small debounce
+        const windowScrollEvent$ = Rx.Observable.fromEvent(window, "scroll")
+          .debounceTime(250)
+          .subscribe(
+            () => {
+               this.navPosition = document.body.scrollTop;
+               this.checkNavPosition();
+               // console.log(this.navPosition);
+           }
+          );
+
+    }
+
+    createElement() {
+        super.createElement();
+        this.navbar = this.$element.find('.navbar');
+        this.checkNavPosition();
+        this.scrollObsrv();
     }
 
     //This is the template method for defining HTML strings
@@ -22,7 +67,7 @@ export class Navbar extends BaseElement {
         let links = '';
 
         for ( let link of this.links ){
-            links += `<a href="${link.href}" >${link.title}</a>\n`
+            links += `<a>${link.title}</a>\n`;
         }
 
         return `
@@ -43,7 +88,7 @@ export class Navbar extends BaseElement {
 
             </div>
             <div class="page-content">
-            default content
+            default page content
             </div>
         </div>
         `

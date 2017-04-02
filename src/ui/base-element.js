@@ -4,7 +4,7 @@ import $ from 'jquery';
 export class BaseElement {
 
     constructor(){
-        this.$element = null //jquery wrapped object
+        this.$element = null; //jquery wrapped object
     }
 
     appendToElement(el){

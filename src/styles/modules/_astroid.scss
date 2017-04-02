@@ -1,0 +1,36 @@
+#astroid-app {
+  width: 900px;
+  height: 400px;
+  border: 2px solid #000;
+  position: relative;
+
+}
+
+#blaster {
+  background: red;
+  width: 5px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 447px;
+  border-radius: 50% 50% 0 0;
+}
+
+.rock {
+  background: #474747;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.shots {
+  background: red;
+  width: 3px;
+  height: 3px;
+  position: absolute;
+}
+
+#points {
+  margin-left: 920px;
+}

@@ -2,34 +2,16 @@
 
 $dk-blue: #313A54;
 
-@import "modules/controls";
-@import "modules/live-text";
-
+@import "modules/structure";
+@import "modules/navbar";
+@import "modules/dragDrop";
+@import "modules/astroid";
 
 
 body{
-    background:#B9D8D5;
-}
-#app {
-    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #4d4d4d;
-    min-width: 550px;
-    max-width: 750px;
-    margin: 0 auto;
-    border-radius: 25px;
-    background-color: #fff;
-    overflow: hidden;
-    transition: all 0.3s;
-}
-
-a.active {
-    color: orange;
-}
-
-nav {
-    padding-top: 20px;
-}
-
-.fp-shell{
-    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    background:#fff;
 }

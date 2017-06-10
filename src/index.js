@@ -32,8 +32,8 @@ class App extends BaseElement{
         this.addRoute('Twitter Box', new Twitter_sidebar());
         this.addRoute('Wiki Search', new WikiPage());
         this.addRoute('Redux Clone', new ReduxClonePage());
-        this.addRoute('Drag N Drop', new DragDropPage());
-        this.addRoute('Astroid Game', new AstroidPage(), true);
+        this.addRoute('Drag N Drop', new DragDropPage(), true);
+        this.addRoute('Astroid Game', new AstroidPage());
     }
 
     buildNav(){

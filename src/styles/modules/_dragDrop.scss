@@ -6,3 +6,38 @@
   top: 100px;
   left: 100px;
 }
+
+#ddv2{
+  margin-top: 40px;
+  position: relative;
+
+  .dragable{
+    transition: background 250ms;
+    background: #aaa;
+    width:30px;
+    height: 30px;
+    position: absolute;
+    cursor: move;
+    border: 5px #444;
+    top: 0;
+    left: 0;
+
+    &.dragging{
+      background: #555;
+      pointer-events: none;
+    }
+  }
+
+  .drop-area{
+    transition: background 250ms;
+    padding: 10px;
+    background: #007ACC;
+    margin: 10px 0;
+    color: #fff;
+
+    &.dropped{
+      background: #fEE200;
+      color: #000;
+    }
+  }
+}
